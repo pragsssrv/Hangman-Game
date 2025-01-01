@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Hangman Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hangman Game</h1>
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </header>
+        <main>
+            <div id="game-info" class="game-info">
+                <div id="word-display" class="word-display"></div>
+                <div id="hangman-figure" class="hangman-figure">
+                    <div class="hangman-part base"></div>
+                    <div class="hangman-part pole"></div>
+                    <div class="hangman-part crossbeam"></div>
+                    <div class="hangman-part rope"></div>
+                    <div class="hangman-part head"></div>
+                    <div class="hangman-part body"></div>
+                    <div class="hangman-part left-arm"></div>
+                    <div class="hangman-part right-arm"></div>
+                    <div class="hangman-part left-leg"></div>
+                    <div class="hangman-part right-leg"></div>
+                </div>
+                <div class="info">
+                    <p>Incorrect Guesses: <span id="incorrect-guesses">0</span></p>
+                    <p>Remaining Attempts: <span id="remaining-attempts">6</span></p>
+                </div>
+                <button id="restart-button" class="restart-button">Restart</button>
+            </div>
+            <div id="alphabet-buttons" class="alphabet-buttons"></div>
+            <div id="leaderboard" class="leaderboard">
+                <h2>Leaderboard</h2>
+                <ul id="highscores"></ul>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
