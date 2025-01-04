@@ -3,10 +3,11 @@
 Welcome to the Advanced Hangman Game! This project showcases a sophisticated Hangman game with a modern UI, responsive design, and additional features such as a leaderboard and theme toggling. This README provides an overview of the game, installation instructions, and usage details.
 
 ## Features
-
+![landing-page](https://github.com/pragsssrv/Hangman-Game/blob/6ad608e0696dafed914e5ef522419102839c3a91/image.png?raw=true)
 - **Interactive Hangman Figure**: A visually appealing Hangman figure that updates based on the number of remaining attempts.
+![landing-page](https://github.com/pragsssrv/Hangman-Game/blob/6ad608e0696dafed914e5ef522419102839c3a91/image1.png?raw=true)
 - **Leaderboard**: Tracks and displays high scores using local storage.
-- **Dark Mode**: A toggle to switch between light and dark themes.
+![landing-page](https://github.com/pragsssrv/Hangman-Game/blob/6ad608e0696dafed914e5ef522419102839c3a91/image2.png?raw=true)
 - **Responsive Design**: Optimized for various screen sizes to ensure a smooth experience on both mobile and desktop devices.
 
 ## Files
